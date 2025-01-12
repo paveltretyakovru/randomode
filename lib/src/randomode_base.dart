@@ -14,4 +14,8 @@ class Randomode {
   static double float({ num min = 0, num max = double.maxFinite }) {
     return min + Random().nextDouble() * ((max + 1) - min);
   }
+
+  static String string({ int length = 13 }) {
+    return '';
+  }
 }
